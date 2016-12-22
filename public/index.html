@@ -8,11 +8,20 @@
 
     <title>Portfolio App</title>
 
+    <!-- *********************** Stylesheets ******************************* -->
+    <link rel="stylesheet" href="./stylesheet/reset.css" />
+    <link rel="stylesheet" href="./stylesheet/about.css" />
+    <link rel="stylesheet" href="./stylesheet/backgroundImage.css" />
+    <link rel="stylesheet" href="./stylesheet/header.css" />
+    <link rel="stylesheet" href="./stylesheet/portfolio.css" />
+    <link rel="stylesheet" href="./stylesheet/title.css" />
+
 </head>
 
-<body>
+<body ng-app="app">
 
-    <main></main>
+    <background-image></background-image>
+    <foreground-component></foreground-component>
 
 
     <!-- ********************* Angular Start Files ************************* -->
@@ -21,9 +30,19 @@
 
     <script src="./app/app.js"></script>
 
-    <!-- ********************* Angular Start Files ************************* -->
-    <script src="./directives/mainDirective.js"
+    <!-- ********************* Components ********************************** -->
+    <script src="./components/aboutComponent.js"></script>
+    <script src="./components/foregroundComponent.js"></script>
+    <script src="./components/headerComponent.js"></script>
+    <script src="./components/portfolioComponent.js"></script>
 
+
+    <!-- ********************* Directives ********************************** -->
+    <script src="./directives/backgroundImageDirective.js"></script>
+    <script src="./directives/titlePartialDirective.js"></script>
+
+    <!-- ********************* Service ************************************* -->
+    <script src="./services/portfolioService.js"></script>
 </body>
 
 </html>

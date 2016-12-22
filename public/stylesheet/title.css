@@ -1,0 +1,28 @@
+.title-wrapper{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-container{
+  height: calc(40% - 20px);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container h1{
+  color: #fff;
+  font-size: 70px;
+  font-family: 'Montserrat', arial, sans-serif;
+  padding-bottom: 20px;
+}
+
+.title-container p{
+  font-size: 20px;
+  font-family: 'Montserrat', arial, sans-serif;
+}

@@ -1,0 +1,32 @@
+.portfolio-wrapper{
+  height: 100vh;
+  width: 100vw;
+  background-color: #EDF4F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', arial, sans-serif;
+}
+
+.portfolio-container{
+  margin-top: 5vh;
+  height: 80vh;
+  width: 90vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-head{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-head h2{
+  font-size: 50px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #000
+}
