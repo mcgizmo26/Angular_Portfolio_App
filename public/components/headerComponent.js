@@ -25,8 +25,8 @@ angular
                  '</div>',
                  '<div class="header-right">',
                    '<span>About</span>',
+                   '<span>Projects</span>',
                    '<span>Skills</span>',
-                   '<span>Portfolio</span>',
                    '<span>Contact</span>',
                  '</div>',
                '</header>'

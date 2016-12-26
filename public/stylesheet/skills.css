@@ -1,0 +1,55 @@
+.skills-wrapper{
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', arial, sans-serif;
+}
+
+.skills-container{
+  margin-top: 5vh;
+  height: 85vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+/*********************************** Header ***********************************/
+
+.skills-head-container{
+  height: 12%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-head-container h2{
+  font-size: 50px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #000
+}
+
+/*********************************** Layout ***********************************/
+.skill-layout{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.icons-img-container{
+  height: 30%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-style{
+  max-height: 100px;
+  max-width: 150px;
+}

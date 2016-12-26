@@ -1,0 +1,56 @@
+.contact-wrapper{
+  height: 100vh;
+  width: 100vw;
+  background-color: #EDF4F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', arial, sans-serif;
+}
+
+.contact-background{
+  position: absolute;
+  background-image: url('../img/code.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+}
+
+.contact-container{
+  height: 30%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-header{
+  height: 40%;
+  font-size: 50px;
+  color: #000;
+}
+
+.contact-email{
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-buttons{
+  height: 30%;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button{
+  height: 50%;
+  width: 30%;
+  background: none;
+  border: 2px solid #000;
+  border-radius: 10px;
+  color: #000;
+  font-size: 20px;
+}
