@@ -1,7 +1,7 @@
 angular
   .module('app')
   .component('aboutComponent', {
-    template: ['<section class="about-wrapper">',
+    template: ['<section id="about" class="about-wrapper">',
                  '<div class="about-me-container">',
                    '<span id="profile-pic"></span>',
                    '<span class="about-text-container">',

@@ -19,7 +19,7 @@ angular
       $scope.returnData();
     },
 
-    template: ['<section class="portfolio-wrapper">',
+    template: ['<section id="projects" class="portfolio-wrapper">',
                   '<div class="portfolio-container">',
                     '<span class="project-head">',
                       '<h2>Projects</h2>',

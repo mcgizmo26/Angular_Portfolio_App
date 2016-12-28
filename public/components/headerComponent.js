@@ -2,21 +2,17 @@ angular
   .module('app')
   .component('headerComponent', {
 
-    controller: function($scope){
-
+    controller: function($scope, headerService){
 
       window.onscroll = function(){
-        var hc = document.getElementById('main-header');
-        var hlh4 = document.getElementById('header-name');
-
-          if(window.pageYOffset > 830){
-            hc.classList.add('scrolled');
-            hlh4.classList.remove('invisible');
-          }else{
-            hc.classList.remove('scrolled');
-            hlh4.classList.add('invisible');
-          }
+        headerService.fixedHeaderStyle();
+        headerService.headerLinkStyles();
       };
+
+      $scope.goToId = function($event){
+        headerService.linkScrolls($event);
+      }
+
     },
 
     template: ['<header id="main-header">',
@@ -24,10 +20,10 @@ angular
                     '<h4 id="header-name" class="invisible">Lonnie McGill</h4>',
                  '</div>',
                  '<div class="header-right">',
-                   '<span>About</span>',
-                   '<span>Projects</span>',
-                   '<span>Skills</span>',
-                   '<span>Contact</span>',
+                   '<span class="normal" id="about-link" ng-click="goToId($event)">About</span>',
+                   '<span class="normal" id="projects-link" ng-click="goToId($event)">Projects</span>',
+                   '<span class="normal" id="skills-link" ng-click="goToId($event)">Skills</span>',
+                   '<span class="normal" id="contact-link" ng-click="goToId($event)">Contact</span>',
                  '</div>',
                '</header>'
             ].join('')

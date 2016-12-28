@@ -32,7 +32,9 @@
   display: none;
 }
 
-
+.highlighted{
+  color: blue;
+}
 
 
 .scrolled{

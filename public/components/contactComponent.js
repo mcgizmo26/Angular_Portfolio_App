@@ -1,7 +1,7 @@
 angular
   .module('app')
   .component('contactComponent', {
-    template:['<section class="contact-wrapper">',
+    template:['<section id="contact" class="contact-wrapper">',
                 '<span class="contact-background"></span>',
                 '<span class="contact-container">',
                   '<div class="contact-header">',

@@ -14,7 +14,7 @@ angular
       $scope.returnData();
     },
 
-    template: [ '<section class="skills-wrapper">',
+    template: [ '<section id="skills" class="skills-wrapper">',
                    '<div class="skills-container">',
                      '<span class="skills-head-container">',
                        '<h2>Skills</h2>',
