@@ -9,9 +9,9 @@ angular
                   '</div>',
                   '<p class="contact-email">mcgizmo26@yahoo.com</p>',
                   '<div class="contact-buttons">',
-                    '<button>Twitter</button>',
-                    '<button>LinkedIn</button>',
-                    '<button>GitHub</button>',
+                    '<button type="button"><a href="https://twitter.com/26mcgizmo">Twitter</a></button>',
+                    '<button type="button"><a href="https://www.linkedin.com/in/lonnie-mcgill-135b6a102">LinkedIn</button>',
+                    '<button type="button"><a href="https://github.com/mcgizmo26">GitHub</button>',
                   '</div>',
                 '</span>',
               '</section>'
