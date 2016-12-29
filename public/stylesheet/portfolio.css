@@ -270,3 +270,73 @@
         margin-left: 20px;
     }
 }
+
+/**************** Phones ******************/
+@media (max-width: 414px) {
+  .project-head h2 {
+      font-size: 50px;
+  }
+  .project-left {
+      height: 50%;
+      width: 80%;
+  }
+  .git-link{
+      margin-top: 10px;
+      font-size: 20px;
+  }
+  .project-right p {
+      height: 50%;
+      width: 100%;
+      font-size: 15px;
+  }
+  .project-img {
+      margin-top: 20px;
+      height: 125px;
+      width: 250px;
+  }
+  .project-right {
+      height: 50%;
+      width: 70%;
+  }
+  .project-icon-img {
+      height: 40px;
+      width: 40px;
+      margin-left: 5px;
+  }
+}
+
+@media (max-width: 414px) {
+  .individual-project-container {
+      height: 40%;
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .project-left {
+      height: 60%;
+      width: 90%;
+  }
+  .git-link{
+      width: 70%;
+      margin-top: 10px;
+      font-size: 18px;
+  }
+  .project-img {
+      height: 125px;
+      width: 220px;
+  }
+  .project-right {
+      width: 80%;
+  }
+  .project-right p {
+      display: flex;
+      align-items: center;
+      height: 60%;
+      width: 100%;
+      font-size: 15px;
+  }
+  .project-icon-img {
+      height: 35px;
+      width: 35px;
+      margin-left: 0px;
+  }
+}

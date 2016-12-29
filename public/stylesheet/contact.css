@@ -104,3 +104,23 @@ a{
     margin-left: 30px;
   }
 }
+
+@media (max-width: 414px) {
+  .contact-header{
+    font-size: 32px;
+  }
+  .contact-email{
+    font-size: 20px;
+    height: 40%;
+  }
+  .contact-buttons{
+    height: 30%;
+    width: 300px;
+  }
+  button{
+    height: 50%;
+    width: 30%;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+}

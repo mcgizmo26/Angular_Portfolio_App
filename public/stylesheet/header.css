@@ -46,7 +46,7 @@
 @media (max-width: 1024px) {
 
     .header-left {
-      margin-left: 10px;
+        margin-left: 10px;
         width: 20vw;
         font-size: 25px;
     }
@@ -60,9 +60,12 @@
 @media (max-width: 414px) {
 
     .header-left {
-      margin-left: 10px;
+        margin-left: 10px;
         width: 15vw;
         font-size: 25px;
+    }
+    .header-left h4{
+        font-size: 0px;
     }
 
     .header-right {
