@@ -28,7 +28,7 @@ angular
                       '<div class="individual-project-container" ng-repeat="project in projects">',
                         '<span class="project-left">',
                           '<a href="{{project.webAddress}}"><img class="project-img" ng-src="{{project.img}}" alt=""></img></a>',
-                          '<a ng-href={{project.gitAddress}}>Click to see the code</a>',
+                          '<a class="git-link" ng-href={{project.gitAddress}}>Click to see the code</a>',
                         '</span>',
                         '<span class="project-right">',
                           '<h3>{{project.name}}</h3>',

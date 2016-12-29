@@ -33,7 +33,7 @@ angular
 		// ***************** fixedHeaderStyle Function ****************
 		this.fixedHeaderStyle = function() {
 			var wPY = window.pageYOffset;
-			if (wPY > aboutTrigger.offsetTop) {
+			if (wPY >= aboutTrigger.offsetTop) {
 				hc.classList.add('scrolled');
 				hlh4.classList.remove('invisible');
 			} else {

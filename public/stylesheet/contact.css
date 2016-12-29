@@ -60,3 +60,47 @@ a{
   text-decoration: none;
   color: blue;
 }
+
+/**************************** Media Queries ***********************************/
+
+@media (max-width: 1024px) {
+  .contact-header{
+    height: 40%;
+    font-size: 70px;
+    color: #000;
+  }
+  .contact-email{
+    font-size: 30px;
+    height: 40%;
+  }
+  .contact-buttons{
+    height: 30%;
+    width: 800px;
+  }
+  button{
+    height: 50%;
+    width: 30%;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-header{
+    height: 40%;
+    font-size: 70px;
+    color: #000;
+  }
+  .contact-email{
+    font-size: 30px;
+    height: 40%;
+  }
+  .contact-buttons{
+    height: 30%;
+    width: 700px;
+  }
+  button{
+    height: 50%;
+    width: 30%;
+    margin-left: 30px;
+  }
+}

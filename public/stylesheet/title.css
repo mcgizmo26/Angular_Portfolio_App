@@ -26,3 +26,17 @@
   font-size: 20px;
   font-family: 'Montserrat', arial, sans-serif;
 }
+
+/**************************** Media Queries ***********************************/
+
+/**************** Ipad ******************/
+@media (max-width: 768px) {
+  .title-container h1{
+    font-size: 50px;
+  }
+}
+/**************** Phones ******************/
+@media (max-width: 414px) {
+  .title-container h1{
+    font-size: 30px;
+  }
