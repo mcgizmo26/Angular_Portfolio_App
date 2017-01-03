@@ -7,7 +7,7 @@ var app = express();
 app.use(express.static('../public'));
 
 // ********************** node server ******************************************
-var port = 3000;
-app.listen(3000, function(){
-  console.log("Successfully listening on : 3000");
+var port = 80;
+app.listen(80, function(){
+  console.log("Successfully listening on : 80");
 })
