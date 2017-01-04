@@ -49,16 +49,22 @@ angular
 				if(wPY >= aboutTrigger.offsetTop && wPY < projectsTrigger.offsetTop) {
 					document.getElementById('about-link').classList.add('highlighted');
           document.getElementById('projects-link').classList.remove('highlighted');
+					document.getElementById('skills-link').classList.remove('highlighted');
+					document.getElementById('contact-link').classList.remove('highlighted');
 				} else if(wPY >= projectsTrigger.offsetTop && wPY < skillsTrigger.offsetTop){
 					document.getElementById('projects-link').classList.add('highlighted');
           document.getElementById('about-link').classList.remove('highlighted');
           document.getElementById('skills-link').classList.remove('highlighted');
+					document.getElementById('contact-link').classList.remove('highlighted');
         } else if(wPY >= skillsTrigger.offsetTop && wPY < contactTrigger.offsetTop){
+					document.getElementById('about-link').classList.remove('highlighted');
 					document.getElementById('skills-link').classList.add('highlighted');
           document.getElementById('projects-link').classList.remove('highlighted');
           document.getElementById('contact-link').classList.remove('highlighted');
-        }else if (wPY === contactTrigger.offsetTop) {
+        }else if (wPY >= contactTrigger.offsetTop) {
           document.getElementById('contact-link').classList.add('highlighted');
+					document.getElementById('about-link').classList.remove('highlighted');
+					document.getElementById('projects-link').classList.remove('highlighted');
           document.getElementById('skills-link').classList.remove('highlighted');
         }else{
           document.getElementById('about-link').classList.remove('highlighted');
