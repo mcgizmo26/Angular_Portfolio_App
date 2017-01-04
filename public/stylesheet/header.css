@@ -20,6 +20,7 @@
 }
 
 .header-right {
+  cursor: pointer;
     height: 100%;
     width: 25vw;
     color: #fff;
