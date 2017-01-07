@@ -305,7 +305,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   .individual-project-container {
       height: 40%;
       width: 100%;
@@ -321,8 +321,8 @@
       font-size: 18px;
   }
   .project-img {
-      height: 125px;
-      width: 220px;
+      height: 110px;
+      width: 200px;
   }
   .project-right {
       width: 80%;
