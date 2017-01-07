@@ -158,16 +158,16 @@
 
 @media (max-width: 375px) {
   .about-me-container {
-      height: 60vh;
-      width: 60vw;
+      height: 80vh;
+      width: 80vw;
   }
   .about-text-container {
       height: 70%;
       width: 90%;
   }
     #profile-pic {
-       margin-top: 40px;
-       height: 200px;
+       margin-top: 20px;
+       height: 150px;
        width: 150px;
     }
     .about-text-container h3 {
