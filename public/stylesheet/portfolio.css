@@ -321,6 +321,7 @@
       font-size: 18px;
   }
   .project-img {
+      padding-top: 20px;
       height: 110px;
       width: 200px;
   }
@@ -330,7 +331,7 @@
   .project-right p {
       display: flex;
       align-items: center;
-      height: 55%;
+      height: 45%;
       width: 100%;
       font-size: 15px;
   }
