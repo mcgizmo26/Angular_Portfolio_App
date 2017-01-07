@@ -158,8 +158,8 @@
 
 @media (max-width: 375px) {
   .about-me-container {
-      height: 70vh;
-      width: 70vw;
+      height: 60vh;
+      width: 60vw;
   }
   .about-text-container {
       height: 70%;
@@ -172,7 +172,7 @@
     }
     .about-text-container h3 {
        margin-top: 20px;
-       font-size: 35px;
+       font-size: 32px;
     }
     .about-text-container p {
        line-height: 20px;
