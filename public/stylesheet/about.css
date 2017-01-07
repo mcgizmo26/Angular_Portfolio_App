@@ -156,10 +156,10 @@
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   .about-me-container {
       height: 70vh;
-      width: 80vw;
+      width: 70vw;
   }
   .about-text-container {
       height: 70%;
