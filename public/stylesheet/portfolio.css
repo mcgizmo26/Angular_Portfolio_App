@@ -330,7 +330,7 @@
   .project-right p {
       display: flex;
       align-items: center;
-      height: 60%;
+      height: 55%;
       width: 100%;
       font-size: 15px;
   }
