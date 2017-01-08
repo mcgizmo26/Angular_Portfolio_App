@@ -139,8 +139,8 @@
   }
     #profile-pic {
        margin-top: 50px;
-       height: 200px;
-       width: 150px;
+       height: 175px;
+       width: 175px;
     }
     .about-text-container h3 {
        margin-top: 40px;
@@ -151,7 +151,7 @@
        letter-spacing: 1px;
        text-indent: 0px;
        text-align: justify;
-       margin-top: 40px;
+       margin-top: 20px;
        font-size: 20px;
     }
 }
