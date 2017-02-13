@@ -8,7 +8,7 @@ angular
         name: 'Financial App',
         img: '../img/financial.jpeg',
         description: 'This app simulates a financial sign-up process. Once the customer "applies", an employee may claim them and update their information.',
-        webAddress: 'http://138.68.43.253/#/',
+        webAddress: 'http://45.55.231.22/#/',
         gitAddress: 'https://github.com/mcgizmo26/Financialapp',
         projectSkills: ['Angular', 'CSS', 'Html', 'Mongo', 'Node']
       },
